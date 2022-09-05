@@ -1,0 +1,80 @@
+<!--演習5 確認テスト(お問い合わせページ)-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./css/normalize.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/contact.css">
+        <title>株式会社DIVEお問い合わせページ</title>
+        <style>
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <header class="header">
+                <a href="index.html"><img src="./images/logo.png" class="logo_image" alt=""></a>
+                <nav>
+                    <ul class="top_menu clearfix">
+                        <li><a href="index.html">ホーム</a></li>
+                        <li><a href="business.html">事業内容</a></li>
+                        <li><a href="company.html">会社概要</a></li>
+                        <li><a href="contact.html">お問い合わせ</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <img src="./images/contact.png" class="image_area" alt="">
+            <div class="wrapper clearfix">
+                <aside class="side_menu">
+                    <nav>
+                        <ul>
+                            <li><a href="business.html">事業内容</a></li>
+                            <li><a href="company.html">会社概要</a></li>
+                            <li class="point"><a href="contact.html">お問い合わせ</a></li>
+                        </ul>
+                    </nav>
+                </aside>
+                <article class="contact">
+                    <form action="#">
+                        <table>
+                            <tr class="contact_item">
+                                <th>お名前</th>
+                                <td>
+                                    <input type="text" id="name" name="name" class="inquiry">
+                                </td>
+                            </tr>
+                            <tr class="contact_item">
+                                <th>メールアドレス</th>
+                                <td>
+                                    <input type="text" id="email" name="name" class="inquiry">
+                                </td>
+                            </tr>
+                            <tr class="contact_item">
+                                <th>性別</th>
+                                <td>
+                                    <input type="radio" name="gender" value="male" class="gender_radio">男
+                                    <input type="radio" name="gender" value="female" class="gender_radio">女
+                                </td>
+                            </tr>
+                            <tr class="contact_item">
+                                <th>お問い合わせ内容</th>
+                                <td>
+                                    <textarea name="content" id="content" class="inquiry"></textarea>
+                                </td>
+                            </tr>
+                        </table>
+                        <div class="contact_btn">
+                            <a href="#" class="submit">送 信</a>
+                        </div>
+                    </form>
+                </article>
+            </div>
+            <footer class="footer">
+                <p>Copyright © 2018 DIVE INC All RIGHTS RESERVED.</p>
+            </footer>
+        </div>
+    </body>
+</html>
+

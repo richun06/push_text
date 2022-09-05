@@ -1,0 +1,102 @@
+/*
+.side_menu {
+    display: table;
+}
+
+.contact {
+    display: table-cell;
+}
+
+label {
+    display: inline-block;
+    height: 7rem;
+    width: 150px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.inquiry {
+    width: 480px;
+}
+
+
+
+.btn {
+    color: #fff;
+    font-size: 3rem;
+    background-color: #008B8B;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    margin: 0 auto;
+}
+
+.btn:hover {
+    opacity: 0.5;
+}
+*/
+
+.side_menu {
+    display: table;
+}
+
+.contact {
+    display: table-cell;
+}
+
+.contact_item {
+    height: 7rem;
+}
+
+.contact_item th {
+    width: 150px;
+    text-align: right;
+    vertical-align: middle;
+    padding-right: 10px;
+}
+
+.inquiry {
+    width: 480px;
+}
+
+/*
+.submit_btn {
+    text-align: center;
+    background-color: black;
+}
+
+.submit_btn input {
+    color: #fff;
+    font-size: 3rem;
+    background-color: #008B8B;
+    border: none;
+}
+*/
+
+.contact_btn {
+    text-align: center;
+}
+
+.submit {
+    color: #fff;
+    font-size: 3rem;
+    background-color: #008B8B;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.contact_btn:hover {
+    opacity: 0.5;
+}
+
+.gender_radio {
+    vertical-align: middle;
+    position: relative;
+    top: -2px;
+}
+
+
+
+
+
+
